@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Task 02</title>
+
+    <style>
+        .button {
+            background-color: rgb(89, 89, 145);
+            color: rgb(18, 16, 16);
+            padding: 60px 120px;
+            border: none;
+            cursor: pointer;
+            font-size: 40px;
+        }
+
+        .button:hover {
+            background-color: rgb(151, 151, 61);
+            color: rgb(116, 9, 9);
+        }
+
+        .button:active {
+            background-color: rgb(188, 19, 19);
+            color: rgb(239, 239, 15);
+        }
+    </style>
+</head>
+
+<body>
+    <script language-"JavaScript">
+        function myfunc() {
+            var age = parseInt(prompt("Введите свой возраст"));
+            switch (true) {
+                case (age == 10):
+                    alert("Иди учи уроки!");
+                    break;
+                case (age == 18):
+                    alert("Вы совершеннолетний!");
+                    break;
+                case (age == 30):
+                    alert("Завтра на работу!");
+                    break;
+                default:
+                    alert("Мы не знаем что вам делать");
+                    break;
+            }
+        }
+
+    </script>
+
+    <button class="button" onclick="myfunc()">
+        Тыц
+    </button>
+
+
+</body>
+
+</html>
